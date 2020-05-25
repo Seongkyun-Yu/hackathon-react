@@ -1,0 +1,9 @@
+/* Dust */
+.dust-page {
+  background-color: #40e0d0;
+  width: 500px;
+  height: 100vh;
+  color: #f8f8f8;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}

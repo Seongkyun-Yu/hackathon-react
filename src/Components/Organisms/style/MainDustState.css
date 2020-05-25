@@ -1,0 +1,51 @@
+/* MainDustState */
+.main-dust-state-grinstars {
+  background-color: #0a67ad;
+}
+.main-dust-state-laughsquint {
+  background-color: #0a67ad;
+}
+.main-dust-state-smilewink {
+  background-color: #66cdaa;
+}
+.main-dust-state-smile {
+  background-color: #66cdaa;
+  color: black;
+}
+.main-dust-state-frown {
+  background-color: orange;
+}
+.main-dust-state-tired {
+  background-color: #dc143c;
+}
+.main-dust-state-dizzy {
+  background-color: #dc143c;
+}
+.main-dust-state-skull {
+  background-color: #181810;
+}
+.main-dust-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 70vh;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+.main-addr {
+}
+.main-btn {
+  /* border-style: none; */
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0;
+  width: 5rem;
+  height: 1.5rem;
+  border: none;
+  background-color: #6adbb5;
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
+}

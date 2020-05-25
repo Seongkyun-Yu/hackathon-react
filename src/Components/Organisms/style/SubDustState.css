@@ -1,0 +1,45 @@
+/* subDustState */
+.sub-dust-state-grinstars {
+  background-color: #0a67ad;
+}
+.sub-dust-state-laughsquint {
+  background-color: #0a67ad;
+}
+.sub-dust-state-smilewink {
+  background-color: #40e0d0;
+}
+.sub-dust-state-smile {
+  background-color: #40e0d0;
+  color: black;
+}
+.sub-dust-state-frown {
+  background-color: orange;
+}
+.sub-dust-state-tired {
+  background-color: #dc143c;
+}
+.sub-dust-state-dizzy {
+  background-color: #dc143c;
+}
+.sub-dust-state-skull {
+  background-color: #181810;
+}
+.sub-dust-state {
+  display: 'flex';
+  flex-direction: 'row';
+  justify-content: 'space-around';
+  align-items: 'center';
+  margin-top: '2rem';
+  width: 500px;
+  height: 30vh;
+}
+.sub-pm10,
+.sub-pm25,
+.sub-no2,
+.sub-o3,
+.sub-co,
+.sub-so2 {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 900;
+}

@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 // src/setupProxy.js
-module.exports = function (app) {
+module.exports = (app) => {
   app.use(
     createProxyMiddleware('/map-reversegeocode/', {
       target: 'https://naveropenapi.apigw.ntruss.com/',
@@ -14,4 +14,10 @@ module.exports = function (app) {
       changeOrigin: true,
     }),
   );
+  // app.use(
+  //   createProxyMiddleware('/6d4d776b466c656533356a4b4b5872', {
+  //     target: 'http://openapi.seoul.go.kr:8088/',
+  //     changeOrigin: true,
+  //   }),
+  // );
 };
